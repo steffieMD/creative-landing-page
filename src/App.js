@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Footer";
 import Main from "./Main";
 import Navbar from "./Navbar";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Main />
+      <Footer />
     </>
   );
 }
