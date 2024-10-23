@@ -7,7 +7,7 @@ import fifthImg from "./assets/png/fifth-img.png";
 function Main() {
   return (
     <div className="font-commissioner">
-      <div className="pt-[110px]">
+      <div className="pt-[104px]">
         <img
           src={firstImg}
           alt="two men working on laptops"
@@ -17,12 +17,12 @@ function Main() {
           <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1">
             Branding & website design agency
           </h1>
-          <p className="mb-">
+          <p className="mb-10">
             We specialize in visual storytelling by creating cohesive brand and
             website design solutions for small businesses, giving lasting
             impressions to audiences in a digital world.
           </p>
-          <button>Learn more</button>
+          <button className="bg-customred py-[25px] px-10">Learn more</button>
         </div>
       </div>
       <div>

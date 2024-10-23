@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         commisioner: ['"Commissioner"', "sans-serif"],
       },
+      colors: {
+        customred: "#F94F4F",
+      },
     },
   },
   plugins: [],

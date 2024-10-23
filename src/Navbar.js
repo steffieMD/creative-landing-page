@@ -69,7 +69,7 @@ function Navbar() {
                 Projects
               </a>
             </li>
-            <li className="bg-[#F94F4F] text-base font-extrabold px-11 py-[22px] hover:bg-[#FF9393] hover:text-lg">
+            <li className="bg-customred text-base font-extrabold px-11 py-[22px] hover:bg-[#FF9393] hover:text-lg">
               <a href="/" className="text-base font-extrabold">
                 Schedule a Call
               </a>
