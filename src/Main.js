@@ -47,7 +47,7 @@ function Main() {
             outcomes and brand awareness. We are firm believers that success
             lies in creative collaboration with our clients.”
           </p>
-          <button className="text-customred font-extrabold border-b-2 border-solid border-current mb-[83px] pb-[9px]">
+          <button className="text-customred font-extrabold border-b-2 border-solid border-current mb-[83px] pb-[9px] hover:text-hoverred">
             Schedule a Call
           </button>
         </div>
@@ -97,8 +97,8 @@ function Main() {
           </div>
         </div>
       </div>
-      <div></div>
       <svg
+        className="hidden"
         xmlns="http://www.w3.org/2000/svg"
         width="134"
         height="60"
@@ -109,17 +109,6 @@ function Main() {
           fill="white"
         />
       </svg>
-      <div>
-        <div>
-          <h2>Brand naming & guidelines</h2>
-          <h2>Brand identity & merchandise</h2>
-          <h2>Brand identity & web design</h2>
-        </div>
-        <div>
-          <button>&lt;</button>
-          <button>&gt;</button>
-        </div>
-      </div>
     </div>
   );
 }

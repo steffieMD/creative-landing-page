@@ -1,15 +1,14 @@
-import "./App.css";
 import Footer from "./Footer";
+import ImageSlider from "./ImageSlider";
 import Main from "./Main";
 import Navbar from "./Navbar";
-import Slider from "./Slider";
 
 function App() {
   return (
     <>
       <Navbar />
       <Main />
-      <Slider />
+      <ImageSlider />
       <Footer />
     </>
   );

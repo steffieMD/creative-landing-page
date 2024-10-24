@@ -1,7 +1,8 @@
 function Footer() {
   return (
-    <>
+    <div className="pt-[100px] px-6">
       <svg
+        className="hidden"
         xmlns="http://www.w3.org/2000/svg"
         width="67"
         height="60"
@@ -12,9 +13,13 @@ function Footer() {
           fill="#F94F4F"
         />
       </svg>
-      <h3>Let's build something great together.</h3>
-      <button>Schedule a Call</button>
-    </>
+      <h3 className="text-[32px] font-extrabold mb-[47px]">
+        Let's build something great together.
+      </h3>
+      <button className="bg-customred py-[25px] px-10 text-lg font-extrabold text-white hover:bg-hoverred mb-[100px]">
+        Schedule a Call
+      </button>
+    </div>
   );
 }
 export default Footer;
