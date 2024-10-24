@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 function Navbar() {
-  const [style, setStyle] = useState("hidden lg:block md:block");
+  const [style, setStyle] = useState("hidden h-full lg:block md:block");
   const toggleNav = () => {
-    if (style !== "hidden lg:block md:block")
-      setStyle("hidden lg:block md:block");
-    else setStyle("block lg:block md:block");
+    if (style !== "hidden h-full lg:block md:block")
+      setStyle("hidden h-full lg:block md:block");
+    else setStyle("block h-full lg:block md:block");
   };
   return (
-    <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner">
-      <div className="flex w-full justify-between px-6 py-10">
+    <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner md:h-[178px] md:justify-items-center md:items-center max-w-[1440px]">
+      <div className="flex w-full justify-between px-6 py-10 h-full items-center md:px-10">
         <svg
           width="161"
           height="30"
@@ -51,9 +51,9 @@ function Navbar() {
           </svg>
         </div>
       </div>
-      <div className="pr-6 ">
+      <div className="pr-6 md:pr-0 h-full">
         <nav className={style}>
-          <ul className="bg-[#191921] w-[67%] ml-auto text-center text-white pt-8 pb-7 flex flex-col gap-6 text-lg px-[26px]">
+          <ul className="bg-[#191921] w-[67%] ml-auto text-center text-white h-full flex flex-col gap-6 text-lg px-[26px] pt-8 pb-7 md:py-0 md:flex-row md:w-full md:pr-10 md:pl-[33px] md:gap-7 text-nowrap items-center md:bg-customred">
             <li>
               <a href="/" className="hover:font-bold">
                 About
@@ -69,7 +69,7 @@ function Navbar() {
                 Projects
               </a>
             </li>
-            <li className="bg-customred text-base font-extrabold px-11 py-[22px] hover:bg-hoverred">
+            <li className="bg-customred text-base font-extrabold px-11 py-[22px] hover:bg-hoverred md:bg-[#191921]">
               <a href="/" className="text-base font-extrabold">
                 Schedule a Call
               </a>

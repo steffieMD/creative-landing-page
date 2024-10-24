@@ -35,7 +35,7 @@ function ImageSlider() {
   };
 
   return (
-    <div className="">
+    <div className="max-w-[1440px]">
       <div className="h-auto">
         <div className=" w-full">
           <img

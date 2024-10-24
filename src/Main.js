@@ -2,15 +2,15 @@ import firstImg from "./assets/png/two-men-using-laptops.png";
 
 function Main() {
   return (
-    <div className="font-commissioner">
-      <div className="pt-[104px]">
+    <div className="font-commissioner max-w-[1440px]">
+      <div className="pt-[104px] md:pt-[178px] flex flex-col md:flex-row">
         <img
           src={firstImg}
           alt="two men working on laptops"
-          className="w-full"
+          className="w-full md:absolute md:h-[606px] max-w-[1440px]"
         />
-        <div className="pt-14 px-6">
-          <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1">
+        <div className="pt-14 px-6 z-10 md:w-[80%] md:pl-10 md:pr-[188px]  md:bg-gradient-to-r from-white from-[50%] to-transparent md:h-[606px]">
+          <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1 md:text-[56px] md:leading-[56px]">
             Branding & website design agency
           </h1>
           <p className="mb-10">
