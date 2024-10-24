@@ -8,7 +8,7 @@ function Navbar() {
     else setStyle("block lg:block md:block");
   };
   return (
-    <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full">
+    <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner">
       <div className="flex w-full justify-between px-6 py-10">
         <svg
           width="161"
@@ -69,7 +69,7 @@ function Navbar() {
                 Projects
               </a>
             </li>
-            <li className="bg-customred text-base font-extrabold px-11 py-[22px] hover:bg-[#FF9393] hover:text-lg">
+            <li className="bg-customred text-base font-extrabold px-11 py-[22px] hover:bg-hoverred hover:text-lg">
               <a href="/" className="text-base font-extrabold">
                 Schedule a Call
               </a>
