@@ -24,11 +24,11 @@ function Main() {
         </div>
       </div>
       <div>
-        <div className="bg-[url('/src/assets/png/second-img.png')] h-[200px] w-full"></div>
+        <div className="bg-[url('/src/assets/png/second-img.png')] bg-cover h-[200px] w-full  md:absolute md:h-[658px] md:right-1/2"></div>
 
-        <div className="px-6 bg-customblue">
+        <div className="px-6 bg-customblue md:relative md:z-20 md:w-1/2 md:h-[538px] ml-auto md:pl-[69px] md:pr-10">
           <svg
-            className="relative bottom-4"
+            className="relative bottom-4 md:bottom-0 md:top-[145px] right-[96px]"
             xmlns="http://www.w3.org/2000/svg"
             width="63"
             height="29"
@@ -51,47 +51,49 @@ function Main() {
             Schedule a Call
           </button>
         </div>
-        <div className="bg-customred px-6 py-8 text-left text-white">
+        <div className="bg-customred px-6 py-8 text-left text-white md:flex md:py-0 md:px-0 md:bg-white">
           <div>
-            <h2 className="text-3.5xl mb-[49px]">
+            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] ">
               Our approach for creating a winning brand
             </h2>
           </div>
-          <div className="flex flex-col gap-10">
-            <div>
-              <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
-                01
-              </h3>
-              <div className="relative bottom-12 pl-4">
-                <h4 className="font-extrabold pb-[15px]">Brand Strategy</h4>
-                <p>
-                  Brand strategy is critical for long-term success. Outshining
-                  competitors and capturing the target audience are key.
-                </p>
+          <div className="md:bg-customred z-40 md:py-[120px] md:px-10">
+            <div className="flex flex-col gap-10  z-40">
+              <div>
+                <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
+                  01
+                </h3>
+                <div className="relative bottom-12 pl-4">
+                  <h4 className="font-extrabold pb-[15px]">Brand Strategy</h4>
+                  <p>
+                    Brand strategy is critical for long-term success. Outshining
+                    competitors and capturing the target audience are key.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div>
-              <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
-                02
-              </h3>
-              <div className="relative bottom-12 pl-4">
-                <h4 className="font-extrabold pb-[15px]">Brand Design</h4>
-                <p>
-                  Keeping the brand design unique and meaningful helps in
-                  communicating the brand’s value effectively.
-                </p>
+              <div>
+                <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
+                  02
+                </h3>
+                <div className="relative bottom-12 pl-4">
+                  <h4 className="font-extrabold pb-[15px]">Brand Design</h4>
+                  <p>
+                    Keeping the brand design unique and meaningful helps in
+                    communicating the brand’s value effectively.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div>
-              <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
-                03
-              </h3>
-              <div className="relative bottom-12 pl-4">
-                <h4 className="font-extrabold pb-[15px]">Web Design</h4>
-                <p>
-                  A beautifully crafted website is the best tool for brand
-                  awareness, and ultimately results in increased revenues.
-                </p>
+              <div>
+                <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
+                  03
+                </h3>
+                <div className="relative bottom-12 pl-4">
+                  <h4 className="font-extrabold pb-[15px]">Web Design</h4>
+                  <p>
+                    A beautifully crafted website is the best tool for brand
+                    awareness, and ultimately results in increased revenues.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

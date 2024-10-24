@@ -35,8 +35,8 @@ function ImageSlider() {
   };
 
   return (
-    <div className="max-w-[1440px]">
-      <div className="h-auto">
+    <div className="max-w-[1440px] md:flex md:flex-row-reverse">
+      <div className="h-auto ">
         <div className=" w-full">
           <img
             src={images[currentIndex].original}
