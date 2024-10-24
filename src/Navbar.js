@@ -8,7 +8,7 @@ function Navbar() {
     else setStyle("block h-full lg:block md:block");
   };
   return (
-    <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner md:h-[178px] md:justify-items-center md:items-center max-w-[1440px]">
+    <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner md:h-[178px] md:justify-items-center md:items-center ">
       <div className="flex w-full justify-between px-6 py-10 h-full items-center md:px-10">
         <svg
           width="161"
