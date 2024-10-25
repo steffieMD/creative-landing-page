@@ -9,7 +9,7 @@ function Navbar() {
   };
   return (
     <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner md:h-[178px] md:justify-items-center md:items-center ">
-      <div className="flex w-full justify-between px-6 py-10 h-full items-center md:px-10 lg:px-[165px]">
+      <div className="flex w-full justify-between px-6 py-10 h-full items-center md:pl-10 lg:pl-[165px]">
         <svg
           width="161"
           height="30"

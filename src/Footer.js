@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <div className="pt-[100px] px-6 lg:px-[165px]">
+    <div className="pt-[100px] px-6 md:pb-[101px] lg:px-[165px] lg:pb-[115px]">
       <svg
-        className="hidden"
+        className="hidden lg:block absolute left-0 translate-y-[34px]"
         xmlns="http://www.w3.org/2000/svg"
         width="67"
         height="60"
@@ -13,12 +13,14 @@ function Footer() {
           fill="#F94F4F"
         />
       </svg>
-      <h3 className="text-[32px] font-extrabold mb-[47px]">
-        Let's build something great together.
-      </h3>
-      <button className="bg-customred py-[25px] px-10 text-lg font-extrabold text-white hover:bg-hoverred mb-[100px]">
-        Schedule a Call
-      </button>
+      <div className="md:flex md:gap-[23%]  md:items-center">
+        <h3 className="text-[32px] font-extrabold mb-[47px] md:text-3.5xl lg:text-[56px] lg:leading-[64px] md:mb-0">
+          Let's build something great together.
+        </h3>
+        <button className="bg-customred py-[25px] px-10 text-lg font-extrabold text-white hover:bg-hoverred whitespace-nowrap h-[67px] text-center self-center">
+          Schedule a Call
+        </button>
+      </div>
     </div>
   );
 }

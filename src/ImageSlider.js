@@ -36,28 +36,26 @@ function ImageSlider() {
 
   return (
     <div className=" md:flex">
-      <div className="h-auto ml-auto md:w-[58%] md:h-[472px]">
-        <div className=" w-full">
+      <div className="h-auto ml-auto md:w-[58%] md:h-[472px] lg:h-[728px] lg:w-[62%]">
+        <div className=" w-full lg:h-[728px]">
           <img
             src={images[currentIndex].original}
             alt={images[currentIndex].description}
-            className="w-full transition-transform duration-500 md:h-[472px]"
+            className="w-full transition-transform duration-500 md:h-[472px] lg:h-[728px]"
           />
         </div>
         <div className="relative bottom-[110px] text-white pr-8 text-right py-8 opacity-75 bg-gradient-to-b from-transparent to-black w-full ">
-          <div className="font-extrabold">
+          <div className="font-extrabold lg:text-[20px]">
             {images[currentIndex].description}
           </div>
-          <div className="image-gallery-description">
-            {images[currentIndex].year}
-          </div>
+          <div className="lg:text-[18px]">{images[currentIndex].year}</div>
         </div>
       </div>
 
-      <div className="-mt-[110px] bg-[#191921] flex flex-col py-16 gap-6 px-6 md:absolute md:-mt-[1px] md:h-[352px]  md:w-1/2 md:py-[100px] md:gap-8 lg:px-[165px]">
-        <div className=" hidden md:block md:translate-x-[98%] lg:translate-x-[89%] ">
+      <div className="-mt-[110px] bg-[#191921] flex flex-col py-16 gap-6 px-6 md:absolute md:-mt-[1px] md:h-[352px]  md:w-1/2 md:py-[100px] md:gap-8 lg:gap-[51px] lg:pl-[165px] lg:pr-[125px] lg:h-[528px]">
+        <div className=" hidden md:block md:translate-x-[98%] lg:translate-x-[112%] lg:translate-y-[120%] ">
           <svg
-            className="md:rotate-180 md:w-[63px] md:h-[29px]"
+            className="md:rotate-180 md:w-[63px] md:h-[29px] lg:w-[134px] lg:h-[60px]"
             xmlns="http://www.w3.org/2000/svg"
             width="134"
             height="60"
@@ -70,10 +68,10 @@ function ImageSlider() {
           </svg>
         </div>
 
-        <h4 className="text-white text-[32px] font-extrabold leading-10 pb-6 md:-mt-[61px]">
+        <h4 className="text-white text-[32px] font-extrabold leading-10 pb-6 md:-mt-[61px] lg:-mt-[80px] lg:text-[56px] lg:leading-[64px]">
           {images[currentIndex].brand}
         </h4>
-        <div className="flex gap-5">
+        <div className="flex gap-5 lg:pb-[152px]">
           <button
             onClick={handlePrevClick}
             className="border-solid border-2 rounded-full text-2xl text-customred border-current py-2 px-4 hover:text-hoverred">

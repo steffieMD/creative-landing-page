@@ -3,32 +3,34 @@ import firstImg from "./assets/png/two-men-using-laptops.png";
 function Main() {
   return (
     <div className="font-commissioner">
-      <div className="pt-[104px] md:pt-[178px] flex flex-col md:flex-row">
+      <div className="pt-[104px] md:pt-[178px] flex flex-col md:flex-row w-full">
         <img
           src={firstImg}
           alt="two men working on laptops"
           className="w-full md:absolute md:h-[606px] lg:h-[800px]"
         />
         <div className="pt-14 px-6 z-10 md:w-[80%] md:pl-10 md:pr-[188px]  md:bg-gradient-to-r from-white from-[50%] to-transparent md:h-[606px] lg:h-[800px] lg:pt-[112px] lg:px-[165px]">
-          <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1 md:text-[56px] md:leading-[56px] lg:text-[80px] lg:leading-[88px]">
+          <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1 md:text-[56px] md:leading-[56px] md:pb-[19px] lg:pb-[39px] lg:text-[80px] lg:leading-[88px]">
             Branding & website design agency
           </h1>
-          <p className="mb-10">
+          <p className="mb-10 md:mb-8 lg:mb-12 lg:leading-8 lg:w-[75%]">
             We specialize in visual storytelling by creating cohesive brand and
             website design solutions for small businesses, giving lasting
             impressions to audiences in a digital world.
           </p>
-          <button className="bg-customred py-[25px] px-10 text-lg font-extrabold text-white hover:bg-hoverred mb-[100px]">
+          <button className="bg-customred py-[25px] px-10 text-lg font-extrabold text-white hover:bg-hoverred mb-[100px] md:mb-[120px] lg:mb-[200px]">
             Learn more
           </button>
         </div>
       </div>
-      <div>
-        <div className="bg-[url('/src/assets/png/second-img.png')] bg-cover h-[200px] w-full  md:absolute md:h-[658px] md:right-1/2"></div>
+      <div className="">
+        <div
+          className="bg-[url('/src/assets/png/second-img.png')] bg-cover h-[200px] w-full  md:absolute md:h-[658px] lg:h-[984px] 
+         md:right-1/2"></div>
 
-        <div className="px-6 bg-customblue md:relative md:z-20 md:w-1/2 md:h-[538px] ml-auto md:pl-[69px] md:pr-10">
+        <div className="px-6 bg-customblue md:relative md:z-20 md:w-1/2 md:h-[538px] ml-auto md:pl-[69px] lg:pr-[106px] lg:pl-[154px] md:pr-10 lg:h-[784px]">
           <svg
-            className="relative bottom-4 md:bottom-0 md:top-[145px] right-[96px]"
+            className="md:-translate-x-[150%] lg:-translate-x-[150%] md:translate-y-[500%] lg:translate-y-[300%] md:top-[145px] right-[96px] lg:h-[61px] lg:w-[139px]"
             xmlns="http://www.w3.org/2000/svg"
             width="63"
             height="29"
@@ -39,33 +41,35 @@ function Main() {
               fill="#F94F4F"
             />
           </svg>
-          <h2 className="text-3.5xl font-extrabold mt-[56px] text-white leading-10 mb-6">
+          <h2 className="text-3.5xl font-extrabold mt-[56px] md:mt-[104px] text-white leading-10 mb-6 md:mb-8 lg:mb-[43] lg:text-[56px] md:leading-[64px]">
             <span className="text-customred">Design</span> is strategic.
           </h2>
-          <p className="text-white mb-10">
+          <p className="text-white mb-10 md:mb-8 lg:mb-[48] lg:leading-8 lg:text-lg">
             “A well-crafted design strategy consistently produces desired
             outcomes and brand awareness. We are firm believers that success
             lies in creative collaboration with our clients.”
           </p>
-          <button className="text-customred font-extrabold border-b-2 border-solid border-current mb-[83px] pb-[9px] hover:text-hoverred">
+          <button className="text-customred font-extrabold border-b-2 border-solid border-current mb-[72px] pb-[9px] md:mb-[120px]hover:text-hoverred md:mb-[200px] lg:text-lg">
             Schedule a Call
           </button>
         </div>
-        <div className="bg-customred px-6 py-8 text-left text-white md:flex md:py-0 md:px-0 md:bg-white">
-          <div className="md:w-[42%]">
-            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] lg:px-[165px]">
+        <div className="bg-customred px-6 py-8 text-left text-white md:flex md:py-0 md:px-0 md:bg-white lg:h-[1110px]">
+          <div className="md:w-[42%] lg:w-[50%] lg:absolute">
+            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] lg:px-[165px] lg:pt-[400px] lg:text-[56px] lg:leading-[64px] lg:pr-0 relative lg:z-50">
               Our approach for creating a winning brand
             </h2>
           </div>
-          <div className="md:bg-customred z-40 md:py-[120px] md:px-10 md:w-[58%]">
+          <div className="md:bg-customred z-40 md:py-[120px] md:px-10 md:w-[58%] lg:w-[62%] lg:ml-auto lg:pl-[285px] lg:pr-[106px] lg:py-[200px]">
             <div className="flex flex-col gap-10  z-40">
               <div>
                 <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">
                   01
                 </h3>
                 <div className="relative bottom-12 pl-4">
-                  <h4 className="font-extrabold pb-[15px]">Brand Strategy</h4>
-                  <p>
+                  <h4 className="font-extrabold pb-[15px] lg:pb-[24px] lg:text-[20px]">
+                    Brand Strategy
+                  </h4>
+                  <p className="lg:text-[18px] lg:leading-8">
                     Brand strategy is critical for long-term success. Outshining
                     competitors and capturing the target audience are key.
                   </p>
@@ -76,8 +80,10 @@ function Main() {
                   02
                 </h3>
                 <div className="relative bottom-12 pl-4">
-                  <h4 className="font-extrabold pb-[15px]">Brand Design</h4>
-                  <p>
+                  <h4 className="font-extrabold pb-[15px] lg:text-[20px] lg:pb-[24px]">
+                    Brand Design
+                  </h4>
+                  <p className="lg:text-[18px] lg:leading-8">
                     Keeping the brand design unique and meaningful helps in
                     communicating the brand’s value effectively.
                   </p>
@@ -88,8 +94,10 @@ function Main() {
                   03
                 </h3>
                 <div className="relative bottom-12 pl-4">
-                  <h4 className="font-extrabold pb-[15px]">Web Design</h4>
-                  <p>
+                  <h4 className="font-extrabold pb-[15px] lg:text-[20px] lg:pb-[24px]">
+                    Web Design
+                  </h4>
+                  <p className="lg:text-[18px] lg:leading-8">
                     A beautifully crafted website is the best tool for brand
                     awareness, and ultimately results in increased revenues.
                   </p>
@@ -99,18 +107,6 @@ function Main() {
           </div>
         </div>
       </div>
-      <svg
-        className="hidden"
-        xmlns="http://www.w3.org/2000/svg"
-        width="134"
-        height="60"
-        viewBox="0 0 134 60"
-        fillRule="none">
-        <path
-          d="M98.4296 0C109.381 0 118.048 4.86425 124.429 14.5928C130.81 24.3213 134 37.6471 134 54.5701H104.811C104.177 51.1312 102.91 48.371 101.009 46.2896C99.1084 44.2081 96.3479 43.1674 92.7275 43.1674C89.4691 43.1674 85.9392 44.0271 82.1378 45.7466C78.3364 47.4661 74.2182 49.4344 69.7832 51.6516C65.3482 53.8688 60.438 55.8145 55.0527 57.4887C49.6673 59.1629 43.7616 60 37.3354 60C25.7501 60 16.6312 55.1131 9.97872 45.3394C3.32624 35.5656 0 22.3077 0 5.56561H29.1895C29.823 8.91402 31.2486 11.629 33.4661 13.7104C35.6836 15.7919 38.6478 16.8326 42.3587 16.8326C45.436 16.8326 48.8301 15.9955 52.541 14.3213C56.2519 12.6471 60.4154 10.6787 65.0314 8.41629C69.6474 6.15385 74.7386 4.18552 80.305 2.51131C85.8713 0.837101 91.9129 0 98.4296 0Z"
-          fill="white"
-        />
-      </svg>
     </div>
   );
 }
