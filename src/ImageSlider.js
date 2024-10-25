@@ -36,15 +36,15 @@ function ImageSlider() {
 
   return (
     <div className=" md:flex">
-      <div className="h-auto ml-auto">
+      <div className="h-auto ml-auto md:w-[58%] md:h-[472px]">
         <div className=" w-full">
           <img
             src={images[currentIndex].original}
             alt={images[currentIndex].description}
-            className="w-full transition-transform duration-500 "
+            className="w-full transition-transform duration-500 md:h-[472px]"
           />
         </div>
-        <div className="relative bottom-[110px] text-white pr-8 text-right py-8 opacity-75 bg-gradient-to-b from-transparent to-black w-full">
+        <div className="relative bottom-[110px] text-white pr-8 text-right py-8 opacity-75 bg-gradient-to-b from-transparent to-black w-full ">
           <div className="font-extrabold">
             {images[currentIndex].description}
           </div>
@@ -54,7 +54,7 @@ function ImageSlider() {
         </div>
       </div>
 
-      <div className="-mt-[110px] pt-[46px] bg-[#191921] px-6 md:absolute md:-mt-[1px] md:h-[352px]">
+      <div className="-mt-[110px] pt-[46px] bg-[#191921] px-6 md:absolute md:-mt-[1px] md:h-[352px] md:w-1/2">
         <h4 className="text-white text-[32px] font-extrabold leading-10 pb-6 ">
           {images[currentIndex].brand}
         </h4>
