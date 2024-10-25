@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="py-[100px] px-6 md:pb-[101px] lg:px-[165px] lg:pb-[115px]">
       <svg
-        className="hidden lg:block absolute left-0 translate-y-[34px]"
+        className="hidden lg:block absolute left-0 translate-y-[34px] lg:w-[39px]"
         xmlns="http://www.w3.org/2000/svg"
         width="67"
         height="60"
@@ -14,7 +14,7 @@ function Footer() {
         />
       </svg>
       <div className="md:flex md:gap-[23%]  md:items-center">
-        <h3 className="text-[32px] font-extrabold mb-[47px] md:text-3.5xl lg:text-[56px] lg:leading-[64px] md:mb-0">
+        <h3 className="text-[32px] font-extrabold mb-[47px] md:text-3.5xl lg:text-[40px] lg:leading-[50px] xl:text-[56px] xl:leading-[64px] md:mb-0">
           Let's build something great together.
         </h3>
         <button className="bg-customred py-[25px] px-10 text-lg font-extrabold text-white hover:bg-hoverred whitespace-nowrap h-[67px] text-center self-center">

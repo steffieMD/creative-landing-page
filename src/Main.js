@@ -55,7 +55,7 @@ function Main() {
         </div>
         <div className="bg-customred px-6 py-8 text-left text-white md:flex md:py-0 md:px-0 md:bg-white lg:h-[1110px]">
           <div className="md:w-[42%] lg:w-[50%] lg:absolute">
-            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] lg:px-[165px] lg:pt-[400px] lg:text-[56px] lg:leading-[64px] lg:pr-0 relative lg:z-50">
+            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] lg:px-[165px] lg:pt-[400px] lg:text-[40px] lg:leading-[50px] xl:text-[56px] xl:leading-[64px] lg:pr-0 relative lg:z-50">
               Our approach for creating a winning brand
             </h2>
           </div>
