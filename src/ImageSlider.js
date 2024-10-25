@@ -54,7 +54,7 @@ function ImageSlider() {
         </div>
       </div>
 
-      <div className="-mt-[110px] pt-[46px] bg-[#191921] px-6 absolute md:-mt-[1px] md:h-[352px]">
+      <div className="-mt-[110px] pt-[46px] bg-[#191921] px-6 md:absolute md:-mt-[1px] md:h-[352px]">
         <h4 className="text-white text-[32px] font-extrabold leading-10 pb-6 ">
           {images[currentIndex].brand}
         </h4>
