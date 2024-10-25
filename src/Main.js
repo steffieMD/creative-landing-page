@@ -31,7 +31,7 @@ function Main() {
 
         <div className="px-6 bg-customblue md:relative md:z-20 md:w-1/2 md:h-[538px] ml-auto md:pl-[69px] lg:pr-[106px] lg:pl-[154px] md:pr-10 lg:h-[784px]">
           <svg
-            className="md:-translate-x-[150%] lg:-translate-x-[150%] md:translate-y-[500%] lg:translate-y-[300%] md:top-[145px] right-[96px] lg:h-[61px] lg:w-[139px]"
+            className="-translate-y-4 md:-translate-x-[150%] lg:-translate-x-[150%] md:translate-y-[500%] lg:translate-y-[300%] md:top-[145px] right-[96px] lg:h-[61px] lg:w-[139px]"
             xmlns="http://www.w3.org/2000/svg"
             width="63"
             height="29"
