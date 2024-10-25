@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="pt-[100px] px-6 md:pb-[101px] lg:px-[165px] lg:pb-[115px]">
+    <div className="py-[100px] px-6 md:pb-[101px] lg:px-[165px] lg:pb-[115px]">
       <svg
         className="hidden lg:block absolute left-0 translate-y-[34px]"
         xmlns="http://www.w3.org/2000/svg"
