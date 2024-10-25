@@ -1,4 +1,5 @@
 import firstImg from "./assets/png/two-men-using-laptops.png";
+import heroImg from "./assets/png/hero-img-larger.png";
 
 function Main() {
   return (
@@ -7,7 +8,7 @@ function Main() {
         <img
           src={firstImg}
           alt="two men working on laptops"
-          className="w-full md:absolute md:h-[606px] lg:h-[800px]"
+          className="w-full md:absolute  md:h-[606px] lg:h-[800px]"
         />
         <div className="pt-14 px-6 z-10 md:w-[80%] md:pl-10 md:pr-[188px]  md:bg-gradient-to-r from-white from-[50%] to-transparent md:h-[606px] lg:h-[800px] lg:pt-[112px] lg:px-[165px]">
           <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1 md:text-[56px] md:leading-[56px] md:pb-[19px] lg:pb-[39px] lg:text-[80px] lg:leading-[88px]">
@@ -25,7 +26,7 @@ function Main() {
       </div>
       <div className="">
         <div
-          className="bg-[url('/src/assets/png/second-img.png')] bg-cover h-[200px] w-full  md:absolute md:h-[658px] lg:h-[984px] 
+          className="bg-[url('/src/assets/png/second-img.png')] md:bg-[url('/src/assets/png/second-image-tablet.png')] lg:bg-[url('/src/assets/png/second-img-large.png')] object-cover bg-right-top bg-cover bg-no-repeat h-[200px] w-full  md:absolute md:h-[658px] lg:h-[984px] 
          md:right-1/2"></div>
 
         <div className="px-6 bg-customblue md:relative md:z-20 md:w-1/2 md:h-[538px] ml-auto md:pl-[69px] lg:pr-[106px] lg:pl-[154px] md:pr-10 lg:h-[784px]">
