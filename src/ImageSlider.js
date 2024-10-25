@@ -54,11 +54,26 @@ function ImageSlider() {
         </div>
       </div>
 
-      <div className="-mt-[110px] pt-[46px] bg-[#191921] px-6 md:absolute md:-mt-[1px] md:h-[352px] md:w-1/2">
-        <h4 className="text-white text-[32px] font-extrabold leading-10 pb-6 ">
+      <div className="-mt-[110px] bg-[#191921] flex flex-col py-16 gap-6 px-6 md:absolute md:-mt-[1px] md:h-[352px]  md:w-1/2 md:py-[100px] md:gap-8 lg:px-[165px]">
+        <div className=" hidden md:block md:translate-x-[98%] lg:translate-x-[89%] ">
+          <svg
+            className="md:rotate-180 md:w-[63px] md:h-[29px]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="134"
+            height="60"
+            viewBox="0 0 134 60"
+            fill="none">
+            <path
+              d="M98.4296 0C109.381 0 118.048 4.86425 124.429 14.5928C130.81 24.3213 134 37.6471 134 54.5701H104.811C104.177 51.1312 102.91 48.371 101.009 46.2896C99.1084 44.2081 96.3479 43.1674 92.7275 43.1674C89.4691 43.1674 85.9392 44.0271 82.1378 45.7466C78.3364 47.4661 74.2182 49.4344 69.7832 51.6516C65.3482 53.8688 60.438 55.8145 55.0527 57.4887C49.6673 59.1629 43.7616 60 37.3354 60C25.7501 60 16.6312 55.1131 9.97872 45.3394C3.32624 35.5656 0 22.3077 0 5.56561H29.1895C29.823 8.91402 31.2486 11.629 33.4661 13.7104C35.6836 15.7919 38.6478 16.8326 42.3587 16.8326C45.436 16.8326 48.8301 15.9955 52.541 14.3213C56.2519 12.6471 60.4154 10.6787 65.0314 8.41629C69.6474 6.15385 74.7386 4.18552 80.305 2.51131C85.8713 0.837101 91.9129 0 98.4296 0Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+
+        <h4 className="text-white text-[32px] font-extrabold leading-10 pb-6 md:-mt-[61px]">
           {images[currentIndex].brand}
         </h4>
-        <div className="flex gap-5 pb-16">
+        <div className="flex gap-5">
           <button
             onClick={handlePrevClick}
             className="border-solid border-2 rounded-full text-2xl text-customred border-current py-2 px-4 hover:text-hoverred">

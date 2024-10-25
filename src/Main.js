@@ -7,10 +7,10 @@ function Main() {
         <img
           src={firstImg}
           alt="two men working on laptops"
-          className="w-full md:absolute md:h-[606px] "
+          className="w-full md:absolute md:h-[606px] lg:h-[800px]"
         />
-        <div className="pt-14 px-6 z-10 md:w-[80%] md:pl-10 md:pr-[188px]  md:bg-gradient-to-r from-white from-[50%] to-transparent md:h-[606px]">
-          <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1 md:text-[56px] md:leading-[56px]">
+        <div className="pt-14 px-6 z-10 md:w-[80%] md:pl-10 md:pr-[188px]  md:bg-gradient-to-r from-white from-[50%] to-transparent md:h-[606px] lg:h-[800px] lg:pt-[112px] lg:px-[165px]">
+          <h1 className="text-[40px] font-extrabold leading-10 mb-[15px] pb-1 md:text-[56px] md:leading-[56px] lg:text-[80px] lg:leading-[88px]">
             Branding & website design agency
           </h1>
           <p className="mb-10">
@@ -52,12 +52,12 @@ function Main() {
           </button>
         </div>
         <div className="bg-customred px-6 py-8 text-left text-white md:flex md:py-0 md:px-0 md:bg-white">
-          <div>
-            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] ">
+          <div className="md:w-[42%]">
+            <h2 className="text-3.5xl mb-[49px] md:pt-[246px] md:text-black md:pl-10 md:pr-[10px] lg:px-[165px]">
               Our approach for creating a winning brand
             </h2>
           </div>
-          <div className="md:bg-customred z-40 md:py-[120px] md:px-10">
+          <div className="md:bg-customred z-40 md:py-[120px] md:px-10 md:w-[58%]">
             <div className="flex flex-col gap-10  z-40">
               <div>
                 <h3 className="text-[80px] font-extrabold leading-[88px] opacity-25">

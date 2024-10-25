@@ -9,7 +9,7 @@ function Navbar() {
   };
   return (
     <header className="flex justify-between flex-col lg:flex-row md:flex-row absolute w-full font-commisioner md:h-[178px] md:justify-items-center md:items-center ">
-      <div className="flex w-full justify-between px-6 py-10 h-full items-center md:px-10">
+      <div className="flex w-full justify-between px-6 py-10 h-full items-center md:px-10 lg:px-[165px]">
         <svg
           width="161"
           height="30"
@@ -53,7 +53,7 @@ function Navbar() {
       </div>
       <div className="pr-6 md:pr-0 h-full">
         <nav className={style}>
-          <ul className="bg-[#191921] w-[67%] ml-auto text-center text-white h-full flex flex-col gap-6 text-lg px-[26px] pt-8 pb-7 md:py-0 md:flex-row md:w-full md:pr-10 md:pl-[33px] md:gap-7 text-nowrap items-center md:bg-customred">
+          <ul className="bg-[#191921] w-[67%] ml-auto text-center text-white h-full flex flex-col gap-6 text-lg px-[26px] pt-8 pb-7 md:py-0 md:flex-row md:w-full md:pr-10 md:pl-[33px] md:gap-7 text-nowrap items-center md:bg-customred lg:pr-[165px] lg:pl-[69px]">
             <li>
               <a href="/" className="hover:font-bold">
                 About

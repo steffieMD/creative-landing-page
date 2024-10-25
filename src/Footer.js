@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="pt-[100px] px-6 ">
+    <div className="pt-[100px] px-6 lg:px-[165px]">
       <svg
         className="hidden"
         xmlns="http://www.w3.org/2000/svg"
